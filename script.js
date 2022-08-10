@@ -15,8 +15,18 @@ switch(randomNumber) {
 return computerChoice;
 }
 function playerSelection() {
-    let playerChoice = prompt("Rock, Paper, or Scissors");
-    playerChoice = playerChoice.charAt(0).toUpperCase() + playerChoice.substring(1).toLowerCase();
-    console.log(playerChoice);
+    let playerChoice;
+    while (playerChoice != 'Rock' && playerChoice != 'Paper' && playerChoice != 'Scissors') {
+        playerChoice = prompt("Rock, Paper, or Scissors");
+        playerChoice = playerChoice.charAt(0).toUpperCase() + playerChoice.substring(1).toLowerCase();
+    }
 }
+
+function isTie(getPlayerSelection, getComputerSelection) {
+    if (getPlayerSelection() = getComputerSelection()) {
+        result = 'Tie game!';
+        console.log(result);
+    }    
+}
+
 
