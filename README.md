@@ -1,2 +1,2 @@
-# Odin-Rock-Paper_Scissors
-Rock-Paper_Scissors project for The Odin Project
+# odin-rock-paper-scissors
+Rock-Paper-Scissors project using HTML, CSS, and Javascript
